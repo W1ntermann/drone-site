@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200, height=630">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            width: 1200px;
+            height: 630px;
+            background: linear-gradient(135deg, #191e26 0%, #2a6553 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            position: relative;
+            overflow: hidden;
+        }
+        .background-pattern {
+            position: absolute;
+            inset: 0;
+            opacity: 0.1;
+            background-image: 
+                linear-gradient(30deg, #2a6553 12%, transparent 12.5%, transparent 87%, #2a6553 87.5%, #2a6553),
+                linear-gradient(150deg, #2a6553 12%, transparent 12.5%, transparent 87%, #2a6553 87.5%, #2a6553),
+                linear-gradient(30deg, #2a6553 12%, transparent 12.5%, transparent 87%, #2a6553 87.5%, #2a6553),
+                linear-gradient(150deg, #2a6553 12%, transparent 12.5%, transparent 87%, #2a6553 87.5%, #2a6553);
+            background-size: 80px 140px;
+            background-position: 0 0, 0 0, 40px 70px, 40px 70px;
+        }
+        .content {
+            text-align: center;
+            color: white;
+            z-index: 1;
+            padding: 60px;
+        }
+        .logo {
+            font-size: 80px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            letter-spacing: 4px;
+        }
+        .tagline {
+            font-size: 36px;
+            font-weight: 600;
+            margin-bottom: 30px;
+            color: #3a8568;
+        }
+        .description {
+            font-size: 28px;
+            line-height: 1.4;
+            color: rgba(255, 255, 255, 0.9);
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            margin-top: 40px;
+        }
+        .stat {
+            text-align: center;
+        }
+        .stat-value {
+            font-size: 48px;
+            font-weight: bold;
+            color: #3a8568;
+        }
+        .stat-label {
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.8);
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-pattern"></div>
+    <div class="content">
+        <div class="logo">AEROTECH</div>
+        <div class="tagline">ПЕРЕВАГА НАРОДЖЕНА У ВОГНІ</div>
+        <div class="description">
+            Виробник безпілотних авіаційних систем нового покоління.<br>
+            Інновації для майбутнього.
+        </div>
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-value">19</div>
+                <div class="stat-label">Років досвіду</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">350K+</div>
+                <div class="stat-label">Годин місій</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">500+</div>
+                <div class="stat-label">Спеціалістів</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

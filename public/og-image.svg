@@ -1,0 +1,57 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#191e26;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a6553;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Pattern overlay -->
+  <g opacity="0.1">
+    <circle cx="100" cy="100" r="200" fill="#2a6553"/>
+    <circle cx="1100" cy="530" r="250" fill="#2a6553"/>
+  </g>
+  
+  <!-- Content -->
+  <g>
+    <!-- Logo -->
+    <text x="600" y="200" font-family="Arial, sans-serif" font-size="90" font-weight="bold" fill="white" text-anchor="middle" letter-spacing="4">
+      AEROTECH
+    </text>
+    
+    <!-- Tagline -->
+    <text x="600" y="280" font-family="Arial, sans-serif" font-size="38" font-weight="600" fill="#3a8568" text-anchor="middle">
+      ПЕРЕВАГА НАРОДЖЕНА У ВОГНІ
+    </text>
+    
+    <!-- Description -->
+    <text x="600" y="360" font-family="Arial, sans-serif" font-size="26" fill="rgba(255,255,255,0.9)" text-anchor="middle">
+      Виробник безпілотних авіаційних систем нового покоління
+    </text>
+    <text x="600" y="400" font-family="Arial, sans-serif" font-size="26" fill="rgba(255,255,255,0.9)" text-anchor="middle">
+      Інновації для майбутнього
+    </text>
+    
+    <!-- Stats -->
+    <g transform="translate(200, 470)">
+      <!-- Stat 1 -->
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#3a8568" text-anchor="middle">19</text>
+      <text x="0" y="35" font-family="Arial, sans-serif" font-size="18" fill="rgba(255,255,255,0.8)" text-anchor="middle">Років досвіду</text>
+    </g>
+    
+    <g transform="translate(600, 470)">
+      <!-- Stat 2 -->
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#3a8568" text-anchor="middle">350K+</text>
+      <text x="0" y="35" font-family="Arial, sans-serif" font-size="18" fill="rgba(255,255,255,0.8)" text-anchor="middle">Годин місій</text>
+    </g>
+    
+    <g transform="translate(1000, 470)">
+      <!-- Stat 3 -->
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#3a8568" text-anchor="middle">500+</text>
+      <text x="0" y="35" font-family="Arial, sans-serif" font-size="18" fill="rgba(255,255,255,0.8)" text-anchor="middle">Спеціалістів</text>
+    </g>
+  </g>
+</svg>

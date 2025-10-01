@@ -1,0 +1,21 @@
+{
+  "name": "AEROTECH - Безпілотні Авіаційні Системи",
+  "short_name": "AEROTECH",
+  "description": "Виробник безпілотних авіаційних систем нового покоління. Інновації для майбутнього.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#191e26",
+  "theme_color": "#2a6553",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "technology", "defense"],
+  "lang": "uk"
+}
+
